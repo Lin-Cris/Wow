@@ -1,0 +1,1460 @@
+{
+  "source_commit": "a67877e36fa3cf406e24caaea63830e5039aa4b9",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "62ce33ec509d96350d7e4e73af850948125a76c5aad7df8df2ca77a38c574d1f",
+      "bytes": 572
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "1b0bea4898cc08e2d94c5186a23c05563d125f977b209cc56aa93727ca7a8ff0",
+      "bytes": 2263
+    },
+    {
+      "path": "CheckBot 首页/.gitignore",
+      "sha256": "cbabc47896498ce03f0063d265ffd68e8fe8d865913e4bcb9a53c358ba2c696e",
+      "bytes": 69
+    },
+    {
+      "path": "CheckBot 首页/README.md",
+      "sha256": "5471b4ef65395bd33b29fa555e945333616036a3d94641101852671e738b377a",
+      "bytes": 1719
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot.xcodeproj/project.pbxproj",
+      "sha256": "e414d52307b7105716614df523257cb81c20dc6c70240f10e15f0549949e0239",
+      "bytes": 52261
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot.xcodeproj/xcshareddata/xcschemes/CheckBot.xcscheme",
+      "sha256": "5d0a3287d7284ddc12e69ab9a4aa81c94189ba5f622838ef0d0f4060027e4e59",
+      "bytes": 2152
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot.xcodeproj/xcshareddata/xcschemes/Wow.xcscheme",
+      "sha256": "5d0a3287d7284ddc12e69ab9a4aa81c94189ba5f622838ef0d0f4060027e4e59",
+      "bytes": 2152
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/AppDelegate.swift",
+      "sha256": "dfa7295319c3a875a075fe3df6c63c6c3fd253c84f7c61de2af2b49724cacb58",
+      "bytes": 2020
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/Info.plist",
+      "sha256": "151cd1eec99ba106c628fbe5c515881cdb597e65ac93dcf087bab398fe9244f2",
+      "bytes": 1773
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/ObsidianURI.swift",
+      "sha256": "d1fe89049ea0dc8a5fe204fa678c48522e53c41ecf93f44f832084925844db42",
+      "bytes": 1580
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/PlanFolderStore.swift",
+      "sha256": "7ccd8e0a082914f9296202105e5b4baf56379f072cdacafb9442ba15ddf6691c",
+      "bytes": 30314
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/TeleprompterDraftStore.swift",
+      "sha256": "dae38e8f8efa1d352c38747f1bbbcd7c26f31a24bf8ffd08d426985f7badfed0",
+      "bytes": 3729
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/Wow.entitlements",
+      "sha256": "51d84f4c08cf2092f7decac754600496e35776a243db417fb2b53801c567ea19",
+      "bytes": 298
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowAppContext.swift",
+      "sha256": "ff3b0c4eae3b4880a654e116d06e8783538533deb4fd9956afcfeeb6ecbea603",
+      "bytes": 1088
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowDashboardView.swift",
+      "sha256": "03469e9c1ab44abba6eda50364118c3ecc5608b9f1ce664722397ef4719f498e",
+      "bytes": 25290
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowDetailView.swift",
+      "sha256": "e7d7bb7b3557798ae59f95129a9331c5d873c0c45635f92174fc146cb599d144",
+      "bytes": 12012
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowEditorSheet.swift",
+      "sha256": "2782467fd255afb5a097131de9052b59eb96ee83a4383eff83bbfa14412e8c2e",
+      "bytes": 4174
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowHomeModels.swift",
+      "sha256": "7f64e00426ef0de7f3f7c86970e0d693d4b304bf3fd771ee4ab5558bda822eff",
+      "bytes": 12973
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowHomeStore.swift",
+      "sha256": "cf97ff4e51d7a2a4a2360c64ee5b623046ad802b8eeaba3c3e6510054924b5d2",
+      "bytes": 14523
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowHomeView.swift",
+      "sha256": "af4b56ed6654172a4dddf791062dc9ec09c3201bacdbac7693acda172786d355",
+      "bytes": 5092
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.swift",
+      "sha256": "9843a16594dabeb9b5f5c5ce32e46be2ac2a955df9da00e80543880d06b241f4",
+      "bytes": 3562
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/BrandIcon.imageset/BrandIcon.png",
+      "sha256": "9acfa56d4e3cf57f168d47c8c59d8177e99690975127aad71a549914d5ffc2d3",
+      "bytes": 859081
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/BrandIcon.imageset/Contents.json",
+      "sha256": "cf2d3e1ce23047018ca041f8821fa1146bbd165968f42bed7238fa57b1c5cef3",
+      "bytes": 307
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/Contents.json",
+      "sha256": "10e3b5dc202f1cd9fad1f688c8fc9fe9e9669bf3f8295e67d216b10fd99b6f49",
+      "bytes": 40
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/CounterIcon.imageset/Contents.json",
+      "sha256": "477029250c0bc95380703b1a80ec877b87f68775210f414c4855c436b01dc0e2",
+      "bytes": 161
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/CounterIcon.imageset/CounterIcon.png",
+      "sha256": "322fbc15f12c6dcd2647eacfd832eb870c7e5c16037c3afd37aa7e2fdf4b4583",
+      "bytes": 1089182
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/PictureRemarkerIcon.imageset/Contents.json",
+      "sha256": "32061c926ecf005eeb290009b129ff1bc5cd032099c7f791db162f25e9075822",
+      "bytes": 317
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/PictureRemarkerIcon.imageset/PictureRemarkerIcon.png",
+      "sha256": "9acfa56d4e3cf57f168d47c8c59d8177e99690975127aad71a549914d5ffc2d3",
+      "bytes": 859081
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/TeleprompterIcon.imageset/Contents.json",
+      "sha256": "6c6e385f26380de4b37cf1964b3b4010f963a54ea7764b0688f39b7e9766c2be",
+      "bytes": 314
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/TeleprompterIcon.imageset/TeleprompterIcon.png",
+      "sha256": "fdd9e8077454d1fad41f35b9de371f42df125961798a922da5f08ab9aa0a3bcf",
+      "bytes": 857826
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/WowAppIcon.appiconset/Contents.json",
+      "sha256": "bc85a2b1d22197fd113f152fa195350806e3ec53fec5428e979bf385cbd658fc",
+      "bytes": 149
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowModules.xcassets/WowAppIcon.appiconset/Wow.png",
+      "sha256": "8532f031a77f0f5737d1e3e9e6a8fbb72e6c39e1eeadde71939de60d9c97853a",
+      "bytes": 1108534
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowPersistence.swift",
+      "sha256": "3e8fb9c35b08a8031602d3b9d3f0591a5ad08e0a8b60eea186222bafb4384225",
+      "bytes": 4452
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowPlanService.swift",
+      "sha256": "a561215c76772a82b3be7776e25bd72adac42d5863e98ba9983629f328996b15",
+      "bytes": 29445
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowRouter.swift",
+      "sha256": "6da54e3e7ba35b45431f1033c027b75f8721c24ff88d2e301969b36155c56c4c",
+      "bytes": 1010
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBot/WowTimeOfDayLighting.swift",
+      "sha256": "c63e6fae6ce2879bcf3d7e8718b362d73c7020c1c9a9e212cda3033a6fa02c1b",
+      "bytes": 21279
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBotTests/PlanTests.swift",
+      "sha256": "7644a0769f36b43b9c6770d5f837506cfa150b7462c277f4f339621f563cfd6b",
+      "bytes": 53303
+    },
+    {
+      "path": "CheckBot 首页/ios/CheckBotUITests/WowNavigationTests.swift",
+      "sha256": "f12f9e710c71767c944906ff1e3c522d4568682f3c4049a4630d279d4f06d24b",
+      "bytes": 64969
+    },
+    {
+      "path": "CheckBot 首页/ios/README.md",
+      "sha256": "7eaf63fd139069f95e9da64a93131922574a52279397b36fe1777e39c58b8bb4",
+      "bytes": 2007
+    },
+    {
+      "path": "CheckBot 首页/scripts/prepare-ios-picker-test.mjs",
+      "sha256": "c45adab09b7e8a976a1685d6942337d2cc0c6aecacc1d977e3700016ea7de5d4",
+      "bytes": 921
+    },
+    {
+      "path": "Counter copy/CounterApp.xcodeproj/project.pbxproj",
+      "sha256": "bb6d3f895811532c29e0f74596bbb29519782f84306d804e7b3affac8cdbedaa",
+      "bytes": 45140
+    },
+    {
+      "path": "Counter copy/CounterApp.xcodeproj/xcshareddata/xcschemes/CounterApp.xcscheme",
+      "sha256": "4670330c05d1dbc4e8cd82d208d8fe5ced0ba01e1f4df75cfee433f900d4ff1b",
+      "bytes": 3180
+    },
+    {
+      "path": "Counter copy/CounterApp/ASSET_SOURCES.md",
+      "sha256": "3232a423c197051243a2696865aa4f38be508fd42084c108c129158b35efeb6e",
+      "bytes": 1099
+    },
+    {
+      "path": "Counter copy/CounterApp/AccountsView.swift",
+      "sha256": "a093a701317011081188fee883a970719cd77e3d97cca11d5446790145155dda",
+      "bytes": 82447
+    },
+    {
+      "path": "Counter copy/CounterApp/ActivityWidget.swift",
+      "sha256": "4ed29e5861f30f802da7618dc049ec9d2c91a62896227d7f725ee2de991256c1",
+      "bytes": 3368
+    },
+    {
+      "path": "Counter copy/CounterApp/AppIntents.swift",
+      "sha256": "09b9d58ee52a17f5beb05872919eb538a288c88a602fa9d99547a8df1bf21385",
+      "bytes": 2868
+    },
+    {
+      "path": "Counter copy/CounterApp/AppModel.swift",
+      "sha256": "8cbb64fb6eb6ea783d5702c6d5c3554d3d4d618843fb8276ed6e652742477d55",
+      "bytes": 40607
+    },
+    {
+      "path": "Counter copy/CounterApp/AppStyle.swift",
+      "sha256": "d8f5ef346653059799efa4531e2167773d0185113cf235b3084e339ccdd21bf4",
+      "bytes": 7203
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "sha256": "322fbc15f12c6dcd2647eacfd832eb870c7e5c16037c3afd37aa7e2fdf4b4583",
+      "bytes": 1089182
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "3725fefca1cc2f15dcff52b03b7db47884c8141e5be1d4e559367b76117f8c48",
+      "bytes": 211
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/Contents.json",
+      "sha256": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f",
+      "bytes": 60
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/avatar.imageset/Contents.json",
+      "sha256": "4481c645c1df161846feb01b6f6f51cf74abe4655147dbf988e9f018c894c313",
+      "bytes": 171
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/avatar.imageset/avatar.png",
+      "sha256": "6d83a8c8452b5d75060f13ca165038d1f258457d1e5a3929eb6e85b64e0c66e8",
+      "bytes": 130164
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty.imageset/Contents.json",
+      "sha256": "fb21893f28d9f6b7aa92cd165351b4f286b802cb67791ee7c679d466d75f04cb",
+      "bytes": 171
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty.imageset/beauty.png",
+      "sha256": "775d0095bee1439ea106b76e6db972499ec9bd01637e76bf7b2bbae39db5464a",
+      "bytes": 71936
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty_alt1.imageset/Contents.json",
+      "sha256": "aa488e8bcafe124a4eff4738fd54fce3f686b1530d411a2ca36b92a0461c2335",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty_alt1.imageset/beauty_alt1.png",
+      "sha256": "26c41e376b664e80049c124938ce81c19c812ec27a7695d2de176bc3d7b474b5",
+      "bytes": 52706
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty_alt2.imageset/Contents.json",
+      "sha256": "e7db8c4fd09ee27a276dfc69291c2fba75d607bff289b60a1cef83c5f0dddd38",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty_alt2.imageset/beauty_alt2.png",
+      "sha256": "e552426dac5790be2bcb5251e61747377ec763b199a20c8fed444408bbef97ae",
+      "bytes": 65492
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty_alt3.imageset/Contents.json",
+      "sha256": "afc6bae1acab5dfdec66fe11359611d71395add1552c6dfaaa586514b53dbcb0",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty_alt3.imageset/beauty_alt3.png",
+      "sha256": "f107abccd472881be15ae9b3f54f218232636ab654161b466176005ead250966",
+      "bytes": 81616
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty_alt4.imageset/Contents.json",
+      "sha256": "97872a3be259148b1243db1cc66944aaf91869b311c0ed54dad638cc6fa4136b",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/beauty_alt4.imageset/beauty_alt4.png",
+      "sha256": "4d1d68bea140b47b4331d2ead41ce238decade5466c12a2312742cdad2ebfb27",
+      "bytes": 75090
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus.imageset/Contents.json",
+      "sha256": "48b49dd4037854bf27b35c3418c03abb9ab714a34a4a2d81ce53bea367e02e09",
+      "bytes": 170
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus.imageset/bonus.png",
+      "sha256": "c92130b41737e93abb87ff3eb3bdcb8a4d4c8a207e318db36ce355da14b1ec91",
+      "bytes": 79350
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus_alt1.imageset/Contents.json",
+      "sha256": "3da6ed7c2ac2bf4dc785fbf91f8e842a165a25081413e2c2e887234026023c33",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus_alt1.imageset/bonus_alt1.png",
+      "sha256": "8027186c740056a4ddce429bcbc05e6e86136371198140a3443ccece7b7566ec",
+      "bytes": 108192
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus_alt2.imageset/Contents.json",
+      "sha256": "3ce005648c2209e030503a02bda1335b5b29f14ce1d41e5f6fd15baf61d0b3fd",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus_alt2.imageset/bonus_alt2.png",
+      "sha256": "793db56db93173b834fdfcd355fe9d31b9353f4edc308c749575d3969c43deef",
+      "bytes": 104567
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus_alt3.imageset/Contents.json",
+      "sha256": "640b304553353a6805b577bb1fd46f4e3b36b67c1cb838d5031f9966c3331938",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus_alt3.imageset/bonus_alt3.png",
+      "sha256": "1eecb9c6aa35993d25b781a9c78b04db06efe9a35074774ef4cd40b3d40d0642",
+      "bytes": 100659
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus_alt4.imageset/Contents.json",
+      "sha256": "a45d65c55e5744efa5d58063f41c30cd432b6721b905eba5ce079522d6ccadcb",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/bonus_alt4.imageset/bonus_alt4.png",
+      "sha256": "a9643e13c71082e77c4103b0ddbf8266e8f2ba0a3d050383924b9e735933840b",
+      "bytes": 89190
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing.imageset/Contents.json",
+      "sha256": "53f76642aff36a85236823d76732936966f79e2523e18c3d84efb2045fd0b028",
+      "bytes": 173
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing.imageset/clothing.png",
+      "sha256": "bef22a233e0554e1ebce1748ab958074fa50342de312085f1ea5b3780c1f3e70",
+      "bytes": 121805
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing_alt1.imageset/Contents.json",
+      "sha256": "0527d5acad34e0190d0b3a72bad87818ef001204dba89e52a22ea5a27a930166",
+      "bytes": 178
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing_alt1.imageset/clothing_alt1.png",
+      "sha256": "78856ca83301aa11703bc1d2527471ce47c31fbd7d2f6aa93cdba7b19f37f372",
+      "bytes": 96798
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing_alt2.imageset/Contents.json",
+      "sha256": "950fdf77eb5d1ea7ba7629d17624dc9dc305e21203db31738e84dd8f25d95d99",
+      "bytes": 178
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing_alt2.imageset/clothing_alt2.png",
+      "sha256": "0bbc40faa1c2b27e8204169cb0f045875f47ba889f5be7b0dd45136f674482ee",
+      "bytes": 113644
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing_alt3.imageset/Contents.json",
+      "sha256": "16f0619d594af21df8a7d86d9b039d01a5453cb59d85dd666460ff5c77728dfc",
+      "bytes": 178
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing_alt3.imageset/clothing_alt3.png",
+      "sha256": "39ce05c8e0462d36558be1f3c91667cd516ab1b0389a1544d29a93de30097e74",
+      "bytes": 75391
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing_alt4.imageset/Contents.json",
+      "sha256": "06e0b00e162f0d3148eff27c5d4dd41b801220cc4736835e16127300cfc0e5a1",
+      "bytes": 178
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/clothing_alt4.imageset/clothing_alt4.png",
+      "sha256": "ad811b8adc4bbaea6f505383170be2fd723cef8b97fb4d2b0c8e7c3f4fcbdd72",
+      "bytes": 78634
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category.imageset/Contents.json",
+      "sha256": "9a1421031ebc29dd22d42d6ff06deb7640e52436c4ed2945d8f345349ec4555c",
+      "bytes": 180
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category.imageset/custom_category.png",
+      "sha256": "b7d30f895fc1158ee5f59bdd7a289bfb5d0de218b9c50b7d9b52682ff25231de",
+      "bytes": 109002
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category_alt1.imageset/Contents.json",
+      "sha256": "b843354a39d99c06e134ed9c3c853b7a5733f709a05658cdbd8f7af4e407a40c",
+      "bytes": 185
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category_alt1.imageset/custom_category_alt1.png",
+      "sha256": "1a9b91bfa4cb0c711343f306b4ba09a4d3f79f249e712f2fd18a02f8d69a0810",
+      "bytes": 87184
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category_alt2.imageset/Contents.json",
+      "sha256": "bc349e4732d5cba396cb3343c3d4bab662f011d582856c42298ee35467c64faf",
+      "bytes": 185
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category_alt2.imageset/custom_category_alt2.png",
+      "sha256": "8043f38f02f87f00c59d863c20890ef224d0b3976214711e62bb3080b42a8705",
+      "bytes": 88115
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category_alt3.imageset/Contents.json",
+      "sha256": "3667576196373b97a0cc8ac4ed0861ded9d9f88437ca9499d537722e9761fc2f",
+      "bytes": 185
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category_alt3.imageset/custom_category_alt3.png",
+      "sha256": "009f0c3841d061ced7f59ad68811639f1216870e0ec7e5b18acc72e427630f5a",
+      "bytes": 80305
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category_alt4.imageset/Contents.json",
+      "sha256": "080bf3d4dbcef5190418c737aea04eed8163548fcc3bbbf81f5519abc4e05210",
+      "bytes": 185
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/custom_category_alt4.imageset/custom_category_alt4.png",
+      "sha256": "2554e4fbf05abb888b2e567c39dc7d807b4772fe35eb3f160d320198b2eaae74",
+      "bytes": 103239
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily.imageset/Contents.json",
+      "sha256": "8443a87e28add0c078b0841c697927536c6ce0237b96419722fee9480178b702",
+      "bytes": 170
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily.imageset/daily.png",
+      "sha256": "ee4df8c1bc6cff3b486a636bf7f5a966f5e06e926e9241737a8ded549d36baa8",
+      "bytes": 89213
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily_alt1.imageset/Contents.json",
+      "sha256": "bf61b0ae60eb913aef394e08a2d025bab40a12b622c2327a86a7e40c585e57a9",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily_alt1.imageset/daily_alt1.png",
+      "sha256": "0dedea1df68e4aaa31d0a64ba3ec281669e78420c3c499a2c30c224263388837",
+      "bytes": 57849
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily_alt2.imageset/Contents.json",
+      "sha256": "daa0b8a95fc9798dc7c1a4e04c696d2cd42c95674db0b97cc865bfe51a542c64",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily_alt2.imageset/daily_alt2.png",
+      "sha256": "7234f1672cda03a1b8a96b13ba623f1258b4176f3c018cd393712f3c11d454fd",
+      "bytes": 66419
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily_alt3.imageset/Contents.json",
+      "sha256": "82f484073b1696f02535137b16e15e9045825ffdcaac9860d7b22142e800e31f",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily_alt3.imageset/daily_alt3.png",
+      "sha256": "f104da34b8dc3f662ff1c536064dc145a4e3461af556a5009fd3f1d050c26c2e",
+      "bytes": 101134
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily_alt4.imageset/Contents.json",
+      "sha256": "9ea5a29592f6e3d68135c371ce4b987f56c9389f1c9369cdd4e4dbcf7378f2c0",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/daily_alt4.imageset/daily_alt4.png",
+      "sha256": "04f2243b1a95925a2df0a021596010ccdaae55cc71193dede2b73b09bf753d28",
+      "bytes": 73658
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining.imageset/Contents.json",
+      "sha256": "7282395054b997a734147584c6f44f326859d0918345bd3cd1075ac9f66bcbd4",
+      "bytes": 171
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining.imageset/dining.png",
+      "sha256": "aa6d97ff61a045c0f6109d06facacad1c0d1853b9654c67d5ca3e3eb39bd5c19",
+      "bytes": 99186
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_noodles.imageset/Contents.json",
+      "sha256": "f330505170e2cbcd12ff1e2d886e6dff8cf333932ce87a600484c1ca629032be",
+      "bytes": 179
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_noodles.imageset/dining_noodles.png",
+      "sha256": "1a1028b84cc61854732a6916d02b8380a637b6ce9c0e2bceca11ef122e8c5f8b",
+      "bytes": 111357
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_pan.imageset/Contents.json",
+      "sha256": "867a44b03bead6be956146c5f2a8469c352d6fa177fc950a21ea5aa26c1f2b18",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_pan.imageset/dining_pan.png",
+      "sha256": "9fde6f83a704f754d7a27c01ee140e9818dd21f7f766a7e6f3fb5f9608f19f1f",
+      "bytes": 122111
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_pizza.imageset/Contents.json",
+      "sha256": "ead4c05173bd682516e55b551da5f5b2886e3052afa8298be1b65421685c3eee",
+      "bytes": 177
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_pizza.imageset/dining_pizza.png",
+      "sha256": "e7de92164ab6351016d47c1561d46d9d0b7e52206737eb9ad4f5b74b1f5da9bb",
+      "bytes": 130853
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_rice.imageset/Contents.json",
+      "sha256": "88ca93c517851d5d57af9e5adacb79e9010574cee162141acbf72c196497dd33",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_rice.imageset/dining_rice.png",
+      "sha256": "cc635550b1b242302655f7ee1c2160ed6a196fb336a79f2ac967dca79a634a33",
+      "bytes": 109413
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_takeout.imageset/Contents.json",
+      "sha256": "46652723390bc6a8e3e04c51daa3382ea18790f5dcae1695a4b95d28154c0ce8",
+      "bytes": 179
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/dining_takeout.imageset/dining_takeout.png",
+      "sha256": "8ca4dcb6a0a246116d9545a88cec81b220eace67d727f34363908923ef6c520c",
+      "bytes": 98294
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit.imageset/Contents.json",
+      "sha256": "168d3806030340ca1324452fd6e43424a28a151ecde86d9745813ba31193db2a",
+      "bytes": 170
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit.imageset/fruit.png",
+      "sha256": "2d52f9b98f2027e994ca9d95c734bbfe92c43b64d6c1bc9b6b9bca41720901c0",
+      "bytes": 116589
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit_alt1.imageset/Contents.json",
+      "sha256": "e3e828dfe91a7f556b9492c47531c127f98700a5ea973e45b25a8830acdd1d39",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit_alt1.imageset/fruit_alt1.png",
+      "sha256": "4a8be9b9c528a67be8c96122b3ee91295bd00ddead5a491333ba77b47a215a47",
+      "bytes": 115302
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit_alt2.imageset/Contents.json",
+      "sha256": "d616e01fc5c75c58ec230b7236e999e17b173a39207e44a0108644440dc75086",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit_alt2.imageset/fruit_alt2.png",
+      "sha256": "7e0f7e619513825bc32d784f0bbebd371d4040527b7a62672a71ba5f7362f287",
+      "bytes": 124193
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit_alt3.imageset/Contents.json",
+      "sha256": "d4b67719e739b4d6cc677e467e3a58cd9b2ce1c44cd6cbc3d9dcdbea9d6dfe8d",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit_alt3.imageset/fruit_alt3.png",
+      "sha256": "8b325c8ff1296cabe98f98d1119bf6bb13661e0bc0e913e88527cb5d3ca40b6e",
+      "bytes": 78227
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit_alt4.imageset/Contents.json",
+      "sha256": "3c1fad2c73f84eb0e1d4b9eaeb77e1eee2cc6e6b1dd6611bdb963690f975ffe7",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/fruit_alt4.imageset/fruit_alt4.png",
+      "sha256": "9fceeef3330eafe0060f8b545e403038c65fdf618e2f0506c88231a4b2f165d9",
+      "bytes": 123881
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts.imageset/Contents.json",
+      "sha256": "df183e677b1c50c6f86fb5ca532e3cc2468e17ceb95127edd2e29da30f674e8d",
+      "bytes": 170
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts.imageset/gifts.png",
+      "sha256": "4b23f237381b7fe65ee13c119092ec09ba807bb8a677112f6b8151ab205c5e89",
+      "bytes": 105500
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts_alt1.imageset/Contents.json",
+      "sha256": "d072f25e3ac4390c02cceed6924a60b7f7777920a30b30c6f7e82ac69f65bde3",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts_alt1.imageset/gifts_alt1.png",
+      "sha256": "7b8696caef1e1b23f56e50f0a84faf13c8d2aeb37c79a1a6a2a97769f3f9b1a9",
+      "bytes": 106372
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts_alt2.imageset/Contents.json",
+      "sha256": "28e16f8498dfdc43c142b13d909b54ce43bd39d143802d61281eff8dd4b06792",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts_alt2.imageset/gifts_alt2.png",
+      "sha256": "80c1b232632c6dac2f09b4e7ba9376ccedae191ce9589272867c0efdd605c107",
+      "bytes": 115432
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts_alt3.imageset/Contents.json",
+      "sha256": "67e4dd61d0d6b5b107d407475e2e37d6c65c353b47613f0181f76a146b68b48e",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts_alt3.imageset/gifts_alt3.png",
+      "sha256": "768928fd6a565e96790cb3b2a6f835f6d2a117564ebab256eaa5975a52497efe",
+      "bytes": 131976
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts_alt4.imageset/Contents.json",
+      "sha256": "a6e7615eb5fa7d7d41d3cfb7ee37106b8cab19090e08ca66ca2cbc9430fe4590",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/gifts_alt4.imageset/gifts_alt4.png",
+      "sha256": "cfbc16023ffcb98226e140e60ece2ae037ecf8be5b2f9c0fe8f9c212c8cd6c07",
+      "bytes": 109661
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income.imageset/Contents.json",
+      "sha256": "40423cbd0d90f7432e2a5a87909180e73a245deed54539f4887af920aada7cb1",
+      "bytes": 177
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income.imageset/other_income.png",
+      "sha256": "7859d24b5bce1efc794d96ffe5af14f87d065d994b352f79add945fd8a5583ab",
+      "bytes": 103117
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income_alt1.imageset/Contents.json",
+      "sha256": "56ab0041da6c342cf78b6be6dd924457dbd8359c0383e5a55d8464395fa20726",
+      "bytes": 182
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income_alt1.imageset/other_income_alt1.png",
+      "sha256": "b87cf0a060cd56a5e703cc86365db77f731c75010a982bb92818b9fc255560bb",
+      "bytes": 80947
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income_alt2.imageset/Contents.json",
+      "sha256": "d04876bc3810054ad1ac65cdd6d2a0942889bc1e45c44e4ba719976edf048465",
+      "bytes": 182
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income_alt2.imageset/other_income_alt2.png",
+      "sha256": "f810d555df6be0b83b27a59c5d24184a9f03e55be07d64992628d7e6fde7ed26",
+      "bytes": 80238
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income_alt3.imageset/Contents.json",
+      "sha256": "b44ab550922e84ad29b72a2dcf5788638d16deb2b34b690fdefbdf4e36c5f61f",
+      "bytes": 182
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income_alt3.imageset/other_income_alt3.png",
+      "sha256": "433b50fd1033d553e5c40de49b7b4c847ac37de9666dc9001b3d4ae727609089",
+      "bytes": 68869
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income_alt4.imageset/Contents.json",
+      "sha256": "7f6ae0b543efaf10ae62500990f58a7baef8761ce491cc87fc7906e00625c345",
+      "bytes": 182
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/other_income_alt4.imageset/other_income_alt4.png",
+      "sha256": "117f85f7b4dbdf5e3257a4bc152dc52c8d308f5c3cd6106e6586754610d00fe5",
+      "bytes": 74127
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone.imageset/Contents.json",
+      "sha256": "8cfe3870a02a42f3d22cfd7856d242eceb37e92c63195fa9399963d227c94543",
+      "bytes": 170
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone.imageset/phone.png",
+      "sha256": "95b3e8243e17d547b3f4714bbe468a633514aa990c0a8ed2a3eaadf71da019b5",
+      "bytes": 62208
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone_alt1.imageset/Contents.json",
+      "sha256": "ed08fa8cc34c2d2469f5c006bbc69867958538f1af2e021040b7273d89e18e19",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone_alt1.imageset/phone_alt1.png",
+      "sha256": "07d07ead2c57a536e6161381ec29f491d45b1cfe5c109e4ea334ac1ace6e9f9a",
+      "bytes": 52411
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone_alt2.imageset/Contents.json",
+      "sha256": "7f6bd535d652caba179af4b84a9795358473bf5eb2691360418e3e2c9acde605",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone_alt2.imageset/phone_alt2.png",
+      "sha256": "6eb5962ca1ff2d250a104dfd7c728fbf7ac743911b2d1bfbd16ab5c038d3be41",
+      "bytes": 108935
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone_alt3.imageset/Contents.json",
+      "sha256": "91a0bd69cad8a6be935bc69dc07e5c58f0c746c5ea6218f68d039c63268952f0",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone_alt3.imageset/phone_alt3.png",
+      "sha256": "21ccf7252c15bd5a91f06661b81664af1f89bffc9fdc04f57b216a74e2780b29",
+      "bytes": 65248
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone_alt4.imageset/Contents.json",
+      "sha256": "9b5cbf1af8c2b85a52cde63a16ad39780ef29e39876ca9d976d7debaac9c225e",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/phone_alt4.imageset/phone_alt4.png",
+      "sha256": "51cc23634f09869c95028b013d501a093b9c71bda41ba3789c3e318f7c1469bb",
+      "bytes": 72014
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary.imageset/Contents.json",
+      "sha256": "b6061170ddb8c9a99f28fde826934fc92903c095c06fdea6566520e2c80d5d8e",
+      "bytes": 171
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary.imageset/salary.png",
+      "sha256": "ebee689ae0a77b8cd2777114045f2ab54edcf84bf28278b6650dbec69b5dd4da",
+      "bytes": 112684
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary_alt1.imageset/Contents.json",
+      "sha256": "6704dd3ad65ea3120c92bf19eb532d471f64e85f8e6e74e08ff3e656b7f12347",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary_alt1.imageset/salary_alt1.png",
+      "sha256": "a99a8de2fc8714f7ad51a75ac044696ca4923b2b29143426fdce58390e3a6060",
+      "bytes": 79254
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary_alt2.imageset/Contents.json",
+      "sha256": "68aa88d54b176049c57460cea2ffb9d8a1a63b73d64d2277c9dcfdc623b2a27d",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary_alt2.imageset/salary_alt2.png",
+      "sha256": "ee4672c518f8ebf32bc5526aaf22e9a897af5dab1d43c299ba2b9313d15b9bc7",
+      "bytes": 96697
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary_alt3.imageset/Contents.json",
+      "sha256": "3892c253c3c1646b4c5b0b5380f35a920b13ef181e5a1cbfb3104f40a648da42",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary_alt3.imageset/salary_alt3.png",
+      "sha256": "b469595efc5a44d1e588bc436e1757e1bad2df2cabcacb8e3ed1cf70e3a0e0e0",
+      "bytes": 82489
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary_alt4.imageset/Contents.json",
+      "sha256": "c4c0ca0448273a8225a7829574c03ef74c76d92e9a381099f29fdacacc221703",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/salary_alt4.imageset/salary_alt4.png",
+      "sha256": "da76e8263ec789e71c84926b4c405dfbb16a3114271d724a7c0c5bd2ce42005f",
+      "bytes": 72852
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping.imageset/Contents.json",
+      "sha256": "d63320ad3661eb43c82cda944b69220d686ddd24e0b0c402c2bed2ac4cba7350",
+      "bytes": 173
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping.imageset/shopping.png",
+      "sha256": "5535d8a97acfbbd07c5c7987b24fbe02a508db0babcac8deeb89a8db6f788525",
+      "bytes": 102888
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping_alt1.imageset/Contents.json",
+      "sha256": "a2e262bf2cec8f6fe138d7246f9f67d6b50d2f7ce673b037225cc23546f41e95",
+      "bytes": 178
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping_alt1.imageset/shopping_alt1.png",
+      "sha256": "b2830ae997b83adf3798be287513cb24c7eeb86cdbc480ea7bf87a323fc303fe",
+      "bytes": 95602
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping_alt2.imageset/Contents.json",
+      "sha256": "b193ed15a814f564766397b08dc39a71287396da3fe000022540eadab3894c1d",
+      "bytes": 178
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping_alt2.imageset/shopping_alt2.png",
+      "sha256": "b65e141af0eb5a13832524e98ffca7db9e5c5413f8b78278a4c327eab5977473",
+      "bytes": 127432
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping_alt3.imageset/Contents.json",
+      "sha256": "ab826b56e7eaaf71dc01e61fb0a985c5a3f7a3aebc837f1d91c3e2f82e119a8f",
+      "bytes": 178
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping_alt3.imageset/shopping_alt3.png",
+      "sha256": "f94282679795880e4c5ff3eeaca88ee0b06dd9d69921bea3b882fae5ad5e325f",
+      "bytes": 101957
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping_alt4.imageset/Contents.json",
+      "sha256": "ca2397afe29361f58572df0f5859379f96d7bde56401361969fc01e391d4b3fd",
+      "bytes": 178
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/shopping_alt4.imageset/shopping_alt4.png",
+      "sha256": "ff1975050cb32916fe4d0fa5515e74cc5c44b7c953da010fe479239d026ac306",
+      "bytes": 114918
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks.imageset/Contents.json",
+      "sha256": "7d5bc4aab91860a6f48a4efcca2b89df0e4ed0103ec82c8841f59711e4ef12db",
+      "bytes": 171
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks.imageset/snacks.png",
+      "sha256": "04b5e230a4a9a0a27d1e8c4e41a22ff715367a29fbf984248cbbdeef73651646",
+      "bytes": 141439
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks_alt1.imageset/Contents.json",
+      "sha256": "0f0002374ebd49e635f4de6d25ac14e926a323aeaf39b1968c2696b1e190094b",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks_alt1.imageset/snacks_alt1.png",
+      "sha256": "f1d9d189f93df3a502653a43db9be04c99a33344509e8096fbf3a0f78d172d1c",
+      "bytes": 78143
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks_alt2.imageset/Contents.json",
+      "sha256": "a4d46677585775e7968b4431c8d87e5ba170d8ce60e53ae00cc85d33c3b845db",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks_alt2.imageset/snacks_alt2.png",
+      "sha256": "9469ee6aa3160bd4621ef762e45cd338b126599a39caeb2c67e6628e92615866",
+      "bytes": 58279
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks_alt3.imageset/Contents.json",
+      "sha256": "3bd324c513f410bd01456e4d32b4aefc1d8848d1e95bfae052864e720480f0d7",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks_alt3.imageset/snacks_alt3.png",
+      "sha256": "55b5d5957788f73a56f589908a6fd65cb694913f35bda90f8791fdddc9200445",
+      "bytes": 79795
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks_alt4.imageset/Contents.json",
+      "sha256": "8dbd70beb62ea848724eb00e7d2052ac45e8af04e07739762d34aae829fc6c01",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/snacks_alt4.imageset/snacks_alt4.png",
+      "sha256": "359a19632128c9a67e8c0a875c07bb9a490e432c4792ef7de6c1ad8a31b80e25",
+      "bytes": 114889
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports.imageset/Contents.json",
+      "sha256": "e10aa7d870bd704cac6fa988f76d14cabfa3b2ce053a6316b79e22b16ec2a0a5",
+      "bytes": 171
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports.imageset/sports.png",
+      "sha256": "a1b4366ffe3284a2a76b99bfe5e28056b5c7f850d7727fb28ded2e08c29b2467",
+      "bytes": 82069
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports_alt1.imageset/Contents.json",
+      "sha256": "a8ffb473b6bf164ff50adb6b4a2bfbf4b71097296c78cd6bb860e2b8602b032f",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports_alt1.imageset/sports_alt1.png",
+      "sha256": "5cfd4e342f40f4cd4b5ade4f3cff563301e840768a444cda8bc32e63e5f2dc8c",
+      "bytes": 140747
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports_alt2.imageset/Contents.json",
+      "sha256": "0429b973d093a7fcf3d32a1e401b1775904f0ea36a5be7fd64b0366fdf437f1a",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports_alt2.imageset/sports_alt2.png",
+      "sha256": "41f3327b76981c860971956e03ba4cd877f9e46edf26dd339ee35a5fe4ee72d2",
+      "bytes": 128039
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports_alt3.imageset/Contents.json",
+      "sha256": "68b1b3c4c4718ea74ba2a54ee5a5b9e31ea5f9db97d944e6a42a0f705c0105d7",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports_alt3.imageset/sports_alt3.png",
+      "sha256": "952c1d7e4b796d9a4328aa5f6b85c51ad7dcbd1fd994076d637dee23a5f02d33",
+      "bytes": 82232
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports_alt4.imageset/Contents.json",
+      "sha256": "f016b54ccd310bf7f98e045d87abd6ec432534fdcfa5f21770849b0bb989a00c",
+      "bytes": 176
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/sports_alt4.imageset/sports_alt4.png",
+      "sha256": "48ec720525e4975f4517e79f9ab94d1fb698e232ea2a4113420363498a2885a8",
+      "bytes": 99249
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport.imageset/Contents.json",
+      "sha256": "93a182fe871b79e3df51ae80115a44372d12b2f4e23cb70fc4b666f89158c021",
+      "bytes": 174
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport.imageset/transport.png",
+      "sha256": "eb6ec0a877c4dee4f09e0757152185c52dd9217046c808c27426dae04e9cf1cc",
+      "bytes": 95863
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport_alt1.imageset/Contents.json",
+      "sha256": "4d2d7e9c0706d924b30234ec38dff9d6b5d8a55a19f886d55fc4495e721bacf9",
+      "bytes": 179
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport_alt1.imageset/transport_alt1.png",
+      "sha256": "0919ebfbbfa142d06ca56f7384a66a343eeb9228e0f20c28984073cdce8c6ae3",
+      "bytes": 91425
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport_alt2.imageset/Contents.json",
+      "sha256": "6a04432e167c22bad1a0bb433d674cc50f181a7f42bc0b662e8bba8a57e7a75d",
+      "bytes": 179
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport_alt2.imageset/transport_alt2.png",
+      "sha256": "771a1feba4595a99096125298a2aeec47871081263a9b962b5565e79ded79956",
+      "bytes": 93265
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport_alt3.imageset/Contents.json",
+      "sha256": "98c91c0779a95bcfbbb447f5641c6f11df00e26068675c2117d579f33fc982f4",
+      "bytes": 179
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport_alt3.imageset/transport_alt3.png",
+      "sha256": "1681ae1638b91dd9dcebac0458c169fe3191d7e11b25e3576340a0d02f72c054",
+      "bytes": 113838
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport_alt4.imageset/Contents.json",
+      "sha256": "241d7831bfc0d4babd8623547d4be33388eef6f1b0811d64943f4d4785147f6a",
+      "bytes": 179
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/transport_alt4.imageset/transport_alt4.png",
+      "sha256": "595e0ca6b06d66af025e2b4baaff894ea0a84817f72d834cd3d6258d6ee0f78a",
+      "bytes": 85125
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables.imageset/Contents.json",
+      "sha256": "72fea81abbd76a0b59328416418470b0c8402061b5729f6e02da2ce0aa99b5d3",
+      "bytes": 175
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables.imageset/vegetables.png",
+      "sha256": "6cf2f08f4504e8d89bd1b9d1a7c484c2320ab7156dc2ca84876cf789a94f7a5b",
+      "bytes": 119982
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables_alt1.imageset/Contents.json",
+      "sha256": "8461fbf0744588d7e84158566036472ce24ef0bdcf635e9530e5839da605c435",
+      "bytes": 180
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables_alt1.imageset/vegetables_alt1.png",
+      "sha256": "32b2a595371109119533578691623bb3e661827bbd447ab0c55a333263f15186",
+      "bytes": 95272
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables_alt2.imageset/Contents.json",
+      "sha256": "6c988ba64535402af840a87cf7534aefdb4f098a642227c30cb6c7a3171a97f4",
+      "bytes": 180
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables_alt2.imageset/vegetables_alt2.png",
+      "sha256": "6749b5ab69663dbcbe25c72af11c1fc822b420255d81c43fd6cf939eeb8c3565",
+      "bytes": 110970
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables_alt3.imageset/Contents.json",
+      "sha256": "f4fabde022be957024059caae1fdfd3bbb6f6fcd1060d65c5eaab7dca68c56c3",
+      "bytes": 180
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables_alt3.imageset/vegetables_alt3.png",
+      "sha256": "bab042da2476f266ced0d6ef8359e4fde429a529649784b74e354fb414f7b1c5",
+      "bytes": 110201
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables_alt4.imageset/Contents.json",
+      "sha256": "78f38859b74519abb9b33e9a2001504effb6e1b69e7d3bbaed481ddc0fa9a338",
+      "bytes": 180
+    },
+    {
+      "path": "Counter copy/CounterApp/Assets.xcassets/vegetables_alt4.imageset/vegetables_alt4.png",
+      "sha256": "b34c025720ba40d82b3f8d75fafc34c11dd42fdb6c6a641dc1cf5e1e6cd6adf1",
+      "bytes": 140869
+    },
+    {
+      "path": "Counter copy/CounterApp/CaptureService.swift",
+      "sha256": "628fbc33a015f2f9e4f14a10649723f37a9bf9070b2e44807e39c5093cc19cc7",
+      "bytes": 13464
+    },
+    {
+      "path": "Counter copy/CounterApp/CompanionLoopSilent.mp4",
+      "sha256": "1863fa2b93ae73d10c724dd1f5d3e23f79b8ffcae249f977a8f68556df88586a",
+      "bytes": 1271215
+    },
+    {
+      "path": "Counter copy/CounterApp/CounterApp-Info.plist",
+      "sha256": "e06e3601cc73ac1ca1037d23e46f3cfda1ef760c2273613550c85f913bec5ea3",
+      "bytes": 1202
+    },
+    {
+      "path": "Counter copy/CounterApp/CounterApp.entitlements",
+      "sha256": "ba8fca73c643635ec39f12ccdba8176b351f8b470c542700e6716bb8d0c7fe3b",
+      "bytes": 183
+    },
+    {
+      "path": "Counter copy/CounterApp/CounterApp.swift",
+      "sha256": "d55696be64e232a4506e5c16b6e3175cafc11b3d70f937585ab98a6a31edce01",
+      "bytes": 4416
+    },
+    {
+      "path": "Counter copy/CounterApp/CounterShare-Info.plist",
+      "sha256": "7a480d8ef835dba60707e3f28778bb478bd9b9672ebbe46a10ab840d5419114a",
+      "bytes": 1078
+    },
+    {
+      "path": "Counter copy/CounterApp/CounterShare.entitlements",
+      "sha256": "ba8fca73c643635ec39f12ccdba8176b351f8b470c542700e6716bb8d0c7fe3b",
+      "bytes": 183
+    },
+    {
+      "path": "Counter copy/CounterApp/CounterToolEntryView.swift",
+      "sha256": "9759271daf398ad4d494e56895280528e48aa1300c5d4129ed907221761723ab",
+      "bytes": 1835
+    },
+    {
+      "path": "Counter copy/CounterApp/CounterWidget-Info.plist",
+      "sha256": "f51aab29e6564b336be4305264dd2a735a588100d37b9e0d329344dda1076580",
+      "bytes": 753
+    },
+    {
+      "path": "Counter copy/CounterApp/CounterWidget.entitlements",
+      "sha256": "ba8fca73c643635ec39f12ccdba8176b351f8b470c542700e6716bb8d0c7fe3b",
+      "bytes": 183
+    },
+    {
+      "path": "Counter copy/CounterApp/DraftsView.swift",
+      "sha256": "8e2e418afdb8162e31de7362a840aef406b550d76de0ca5218571a003a9c6792",
+      "bytes": 11761
+    },
+    {
+      "path": "Counter copy/CounterApp/EntryEditorView.swift",
+      "sha256": "a83e9c89734438460d458b3dfeea3763e00cd5736c39288c8dab73706bbb625c",
+      "bytes": 29340
+    },
+    {
+      "path": "Counter copy/CounterApp/HomeView.swift",
+      "sha256": "425b6bc33933bf20204a8300e8de45de4404b1daa8670b1e6883f28ab41d3409",
+      "bytes": 39174
+    },
+    {
+      "path": "Counter copy/CounterApp/ImportExport.swift",
+      "sha256": "898cc29a6c300652a65587ffd518a9c56d5fb64859596b76cb7f3d72fa7cb3e6",
+      "bytes": 24143
+    },
+    {
+      "path": "Counter copy/CounterApp/LiveActivity.swift",
+      "sha256": "82c6aed42500bcd85543d32ca4133ab9d4fc3b1e8dbcf0f15463a4cf4eea9535",
+      "bytes": 3232
+    },
+    {
+      "path": "Counter copy/CounterApp/LocalStore.swift",
+      "sha256": "3ed20cd69e8d5b7f30b17fa48f1cdbbbcf763c77b55bca8374b0417a6d8bc7a7",
+      "bytes": 106165
+    },
+    {
+      "path": "Counter copy/CounterApp/Models.swift",
+      "sha256": "fde425d48ddc0f4d6486ab5730088eac97523e91c2d85653794e7d0c7de629a1",
+      "bytes": 38677
+    },
+    {
+      "path": "Counter copy/CounterApp/MonthlyBillView.swift",
+      "sha256": "18e864eb2472dae0b45816c8019aac867c70ea31d69cae6f185d1465e1682fd6",
+      "bytes": 15870
+    },
+    {
+      "path": "Counter copy/CounterApp/ReminderNotifications.swift",
+      "sha256": "8bda6e62b39233d63c9e26afd32d513b8ccb47682d90cfa9a492d64ebba0154e",
+      "bytes": 11007
+    },
+    {
+      "path": "Counter copy/CounterApp/SettingsView.swift",
+      "sha256": "d0f957ef84040e28ad4e0a979ce839fe354adecf3f3ee9f5d2378dd9901e536b",
+      "bytes": 38808
+    },
+    {
+      "path": "Counter copy/CounterApp/ShareExtension.swift",
+      "sha256": "21134eaa7ea94e91e0eab431cfbf9b0794e402c8680bf4c8896b1d96e017c427",
+      "bytes": 5346
+    },
+    {
+      "path": "Counter copy/CounterApp/ShareManifest.swift",
+      "sha256": "63088240055d7eaae13c6e7268b0e6a5f1278c5bf1dc35c10c4d73a0e7dd37bf",
+      "bytes": 3070
+    },
+    {
+      "path": "Counter copy/CounterAppTests/CounterRegressionTests.swift",
+      "sha256": "fe324e43e6f5662d00db364557a78c633dd5e483b3e617da509f929095f3c98b",
+      "bytes": 86696
+    },
+    {
+      "path": "Counter copy/CounterAppTests/Fixtures/CounterV1Fixture.sqlite",
+      "sha256": "e59dab42a6ba2fb1c6cc0dce531349c50c801d46347c0e7f563be361b741eb7a",
+      "bytes": 45056
+    },
+    {
+      "path": "Counter copy/Package.swift",
+      "sha256": "fe2de1af20f4460a2f6ba332edceaf9edb9cbf0d8658c6fcf0933fba8994f43d",
+      "bytes": 1710
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "30236a072118f3410d41d4bbd9a14cbd806931b5414de7f86fe73707cf32274a",
+      "bytes": 1065
+    },
+    {
+      "path": "OPEN_SOURCE.md",
+      "sha256": "bbe136e501ac1972ed9a9cf7f707538627ddfd638b7bf7330222522dd30b82bd",
+      "bytes": 2452
+    },
+    {
+      "path": "README.md",
+      "sha256": "0efecef11fe82a546cf24616191adecdfdf092cc92d732b615512394271acfc5",
+      "bytes": 3445
+    },
+    {
+      "path": "Wow.xcworkspace/contents.xcworkspacedata",
+      "sha256": "e59cabd9393092baa35d3291a575e1a3b39cc6839edf49f20ead45ec2854182c",
+      "bytes": 143
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/.gitattributes",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "bytes": 66
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/.gitignore",
+      "sha256": "2288a4c658b3dee9cfa7751e636d7032eff653ae8e4c02457c0f896aa35e1994",
+      "bytes": 287
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/LICENSE",
+      "sha256": "f26942d449a6d19f0923d33cabdffa9bb9c6db01d8b0d539ab9891dc972c38be",
+      "bytes": 1083
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/README.md",
+      "sha256": "eb0de03f7eec588521049024ecdbccaaefdc0d353694e696cc61fb8b7e3c154c",
+      "bytes": 2547
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker.xcodeproj/project.pbxproj",
+      "sha256": "ff49dbfa8079118ac33257d3428b1693b3b2443724a2946daf825a881438e1ea",
+      "bytes": 15181
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f",
+      "bytes": 135
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker.xcodeproj/xcshareddata/xcschemes/PictureMarker.xcscheme",
+      "sha256": "a789ff12b29f28ae6f03a8b83313df023d407e09dbed5281a83b28a9a2744ff3",
+      "bytes": 2888
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotatedImageRenderer.swift",
+      "sha256": "12c00750c32740bbb8fc4c702e1fde26d4b5dff0d580663adb14f3e50872d002",
+      "bytes": 19769
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/Annotation.swift",
+      "sha256": "41c24cc71007130ae903902b48c4c971eb898e967ad779434f3ca4247ba8a36e",
+      "bytes": 4396
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationPropertySheet.swift",
+      "sha256": "9c992bc66707fb503b4e897044250499d2bdd5810ae2814b00727650057cc213",
+      "bytes": 5636
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationRenderingGeometry.swift",
+      "sha256": "d18e0774817192b6af310014071ec8d5d70c09305bc3bc7088cbcc4dc8d02b0f",
+      "bytes": 1971
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/AppTheme.swift",
+      "sha256": "cb7906a161b6c1971d346c972fcde4553aee988e24bfc99a812be9e68025a81f",
+      "bytes": 5753
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/ArrowCanvasShapes.swift",
+      "sha256": "fa1f794f005a300d894faef72f2f8d62fbcd075c3f346b932fd7653088d92b77",
+      "bytes": 2653
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "sha256": "cb3f79388623b065c68650286e594484d4d391382fd5c53d87af0200ab8157c7",
+      "bytes": 1065876
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "9cf2928dad89427abd581b6852db081352417f400afb65e60c479228cdc4f4da",
+      "bytes": 216
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/Assets.xcassets/BrandIcon.imageset/BrandIcon.png",
+      "sha256": "9acfa56d4e3cf57f168d47c8c59d8177e99690975127aad71a549914d5ffc2d3",
+      "bytes": 859081
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/Assets.xcassets/BrandIcon.imageset/Contents.json",
+      "sha256": "cf2d3e1ce23047018ca041f8821fa1146bbd165968f42bed7238fa57b1c5cef3",
+      "bytes": 307
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/Assets.xcassets/Contents.json",
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b",
+      "bytes": 63
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/EditorHistory.swift",
+      "sha256": "7268d4bd6a2738abe56b79ef7f505f0dde054e400bec87ae03c296b714db90ae",
+      "bytes": 1172
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/EditorTool.swift",
+      "sha256": "89721af1cd1557b320dbb36ddbeaf602bb71d3c6e174f26287e1dc7ed0b0dfa1",
+      "bytes": 842
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/EditorView.swift",
+      "sha256": "08365235bd226def190c0b627bd988f73a4a65932083dd6014f003ad70901255",
+      "bytes": 35166
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/ExportView.swift",
+      "sha256": "f0f75bed941204c067460fcdeecad176e36661ec3bc2ca0001f212b1552e4f98",
+      "bytes": 7313
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/HomeView.swift",
+      "sha256": "de67eb96ac9acc13f92d6672688cff461616c277296f0ebcb033c52910a960cf",
+      "bytes": 11865
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/ImageAsset.swift",
+      "sha256": "407c87cc82244196316f1b6c3f0a12969a3b14d63739629ef1834dec723e3ccd",
+      "bytes": 4491
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/ImageCanvasView.swift",
+      "sha256": "0988932c1309ebe3a859baf345d59cf3a409d33bfb4556e75ebe389fc839df86",
+      "bytes": 71385
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/Localization.swift",
+      "sha256": "9fa426dad6781d29c1f57fdeede44acad86aaf5739b88cf0ff8cdecfef24d76e",
+      "bytes": 12662
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayGestureSurface.swift",
+      "sha256": "18a3f6f30c2ebfd01e24d4eb0a42b64195bf52cbc1f5d4be1ea12774114888e5",
+      "bytes": 7683
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayImageLayer.swift",
+      "sha256": "346c3d282be10a564a00119be32e52b405915d6c2646ff233283e66200b34313",
+      "bytes": 2129
+    },
+    {
+      "path": "picture-remarker(mainIOS) copy/ios/PictureMarker/PictureMarkerApp.swift",
+      "sha256": "649a7aec5e1fa075a8a62e5a730d3bc052d5c3b6d8d32957f974d7b407521825",
+      "bytes": 500
+    },
+    {
+      "path": "scripts/cloud-check.py",
+      "sha256": "2d66b45d623958c4d583ca11587b6ccf445b9805b9e6bea5c8220bb7fb3d0949",
+      "bytes": 2638
+    },
+    {
+      "path": "scripts/cloud-setup.sh",
+      "sha256": "c4956a036ca4b09e725493e869eb4fa224ccab0789e4e841d98d90bf407d196d",
+      "bytes": 406
+    },
+    {
+      "path": "scripts/export-open-source.py",
+      "sha256": "183b0fd23dbe9d315e2f74602f1088973e30bfd6480796f515d1ca7e9b6cbf65",
+      "bytes": 4539
+    },
+    {
+      "path": "scripts/export-silent-companion.swift",
+      "sha256": "c2ba65e7223b037fca59d89a91c548f0b96df0f9b764f93aa86f81e93f311597",
+      "bytes": 1080
+    },
+    {
+      "path": "提词器 copy/.gitignore",
+      "sha256": "01b5fbfa8ff2b5a69baf7381d4d6db78cb2a3b002482cc3336b265d8a79f913f",
+      "bytes": 256
+    },
+    {
+      "path": "提词器 copy/README.md",
+      "sha256": "2f576f5c520679465081873749a6d1fce7603495934c8f8cc63c2516d62173b9",
+      "bytes": 1437
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp.xcodeproj/project.pbxproj",
+      "sha256": "ff99ee03c6772682db61e7fa72bfc342206004929df8fb4a2032c08708625eb3",
+      "bytes": 11627
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp.xcodeproj/xcshareddata/xcschemes/TeleprompterApp.xcscheme",
+      "sha256": "813ca79b55ea66fbf613b5438066866cd050ce8407135142000b947c6a0d4fc7",
+      "bytes": 2953
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/App/TeleprompterApp.swift",
+      "sha256": "0c4c4b01532f2e467fc0b55eb028f60b1860415cbbbdfff0dec49c2a9400a083",
+      "bytes": 198
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "sha256": "f9047eb7ef0ac9ffb8b6178c00322a3dec263dc0177ddd7fe4cdf38a4b813a1a",
+      "bytes": 329
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "sha256": "fdd9e8077454d1fad41f35b9de371f42df125961798a922da5f08ab9aa0a3bcf",
+      "bytes": 857826
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "3725fefca1cc2f15dcff52b03b7db47884c8141e5be1d4e559367b76117f8c48",
+      "bytes": 211
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Assets.xcassets/Contents.json",
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b",
+      "bytes": 63
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Camera/CameraPreview.swift",
+      "sha256": "45f429474ce000fc8c2a3828dba427f093b9a2109467d019eb08766fd615b1ce",
+      "bytes": 2553
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Camera/CameraService.swift",
+      "sha256": "813a309d79802a1268a3862652d007505aa228f3ef2d30b26397cbb298c53af2",
+      "bytes": 12760
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Features/ScriptEditor/ScriptEditorView.swift",
+      "sha256": "83f5c64e585b867cda03cdd78ed9387085986ce5d085dc7b340039f662c3c456",
+      "bytes": 2816
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterTextView.swift",
+      "sha256": "8846338373d00b719c55da7410c7ed9655770c8e3cfbde1255aef445d1deb3da",
+      "bytes": 25843
+    },
+    {
+      "path": "提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterView.swift",
+      "sha256": "8883d6793537a59092078be8ec9d448096c3af106567a26c2260d179febbe604",
+      "bytes": 29039
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# macOS metadata
+.DS_Store
+
+# Xcode user state and local build products
+**/xcuserdata/
+*.xcuserstate
+DerivedData/
+**/DerivedData/
+build/
+**/build/
+*.xcarchive
+*.ipa
+
+# Swift and Xcode local package caches
+.build/
+**/.build/
+.swiftpm/
+**/.swiftpm/
+
+# Local diagnostic output
+*.log
+*.hmap

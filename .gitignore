@@ -1,0 +1,35 @@
+# Local OS, IDE and generated files
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+*.xcresult/
+DerivedData/
+.deriveddata*/
+.build/
+build/
+node_modules/
+dist/
+.playwright-cli/
+__pycache__/
+*.pyc
+.swiftpm/
+/Verification/
+/output/
+**/(A Document Being Saved By xcodebuild)/
+# Secrets, signing assets and personal data
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-wal
+*.sqlite-shm
+*.wowbackup
+# Synthetic migration fixture, required by the Counter regression test
+!/Counter copy/CounterAppTests/Fixtures/CounterV1Fixture.sqlite

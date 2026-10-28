@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* AppDelegate.swift */; };
+		000000000000000000000004 /* PlanFolderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000003 /* PlanFolderStore.swift */; };
+		00000000000000000000000C /* PlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B /* PlanTests.swift */; };
+		0920C372FC9F60A37E3750E6 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CF1AF44772B8C0E99D748 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Localization.swift */; };
+		121065C90363516FACB97E58 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayGestureSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D22B6394C16966E94B3317 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayGestureSurface.swift */; };
+		17CBA5D2EB02FADF84ADA7E3 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotatedImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F74A608C2BC36E58FBC5E /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotatedImageRenderer.swift */; };
+		253794BA1A5417976984D631 /* ../../提词器 copy/TeleprompterApp/Camera/CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C1A57EBE2FA93FEAF63B06 /* ../../提词器 copy/TeleprompterApp/Camera/CameraPreview.swift */; };
+		2C4D870842981A519F35D46C /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5791E3882C723DF071CBEE /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/HomeView.swift */; };
+		35DE084754D9BD363EAA9729 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431B56352D09C0E8DD242F3 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Annotation.swift */; };
+		51278475FF4C057D10EEA7BB /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F41D726D7B0D8567FA4EE /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorHistory.swift */; };
+		57501AB7190105F131ECDB93 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7275A006BA6A0713E4823600 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayImageLayer.swift */; };
+		64036A80962621AF90659619 /* ../../提词器 copy/TeleprompterApp/Features/ScriptEditor/ScriptEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC6E26F9188FD4C21EDCE1 /* ../../提词器 copy/TeleprompterApp/Features/ScriptEditor/ScriptEditorView.swift */; };
+		85D8A9292F60226110A20634 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460AD19B3CFC6CEF160E4559 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorTool.swift */; };
+		8D7CCDA836F458CCFE40191F /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A067305FB4C75BE6DADAD1 /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterTextView.swift */; };
+		8F291E3AA4E53A2107481AFD /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ArrowCanvasShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD38269D4DFA85F459F5F2 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ArrowCanvasShapes.swift */; };
+		97E4C2F7D8202A008F93B4DA /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationPropertySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB01721BF7340C01362994B /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationPropertySheet.swift */; };
+		99C247219EE9CF06F0426684 /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E083EC3AD3712C5FC44EC7 /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterView.swift */; };
+		9C13A169FDC82CBEE080659B /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7D737CAF579E41A318A68 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageCanvasView.swift */; };
+		A10000000000000000000002 /* WowDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* WowDashboardView.swift */; };
+		A10000000000000000000003 /* WowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* WowDetailView.swift */; };
+		A10000000000000000000004 /* WowEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* WowEditorSheet.swift */; };
+		A10000000000000000000005 /* WowHomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* WowHomeModels.swift */; };
+		A10000000000000000000006 /* WowHomeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* WowHomeStore.swift */; };
+		A10000000000000000000007 /* WowHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* WowHomeView.swift */; };
+		A10000000000000000000008 /* WowPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* WowPersistence.swift */; };
+		A10000000000000000000009 /* WowPlanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* WowPlanService.swift */; };
+		A20000000000000000000001 /* WowRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* WowRouter.swift */; };
+		A20000000000000000000002 /* WowAppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* WowAppContext.swift */; };
+		A20000000000000000000005 /* TeleprompterDraftStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* TeleprompterDraftStore.swift */; };
+		B06CC6A94B4DD9B0CBF09748 /* ../../提词器 copy/TeleprompterApp/Camera/CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816E7D6F11CF4531D7185D9 /* ../../提词器 copy/TeleprompterApp/Camera/CameraService.swift */; };
+		BB0000000000000000000001 /* WowNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* WowNavigationTests.swift */; };
+		BF19EE43547FF8DE3C8E0881 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03043797D9F1C7905E8EA7B6 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorView.swift */; };
+		C10000000000000000000001 /* WowTimeOfDayLighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000000000000000000002 /* WowTimeOfDayLighting.swift */; };
+		D10000000000000000000001 /* ObsidianURI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000002 /* ObsidianURI.swift */; };
+		D79CD57DBDD3109022F63412 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationRenderingGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA642DC60B6BD1EB9E4A18 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationRenderingGeometry.swift */; };
+		D9926DF9B187802E6B5C69EE /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01158051EDFE6B51BEAB8A77 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ExportView.swift */; };
+		E4CC07546A36746E11E2A631 /* CheckBot/WowModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D35AFD6934D2B03BCB8CA9 /* CheckBot/WowModules.swift */; };
+		F77D3F28B07CD51CC1022F25 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D6441C34FF161F169D65B6 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageAsset.swift */; };
+		FB0FE80FAB0AC6EFD9E594CA /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F495FCBB3F4D43892DE69EC /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AppTheme.swift */; };
+		FB3C0A465A51BAAA4690F956 /* CheckBot/WowModules.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23727EB5696EBD1F2F936D27 /* CheckBot/WowModules.xcassets */; };
+		C20000000000000000000001 /* CounterTool in Frameworks */ = {isa = PBXBuildFile; productRef = C29200000000000000000001 /* CounterTool */; };
+		C20000000000000000000002 /* Counter assets in Resources */ = {isa = PBXBuildFile; fileRef = C21000000000000000000001 /* Counter Assets.xcassets */; };
+		C20000000000000000000003 /* CompanionLoopSilent.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C21000000000000000000002 /* CompanionLoopSilent.mp4 */; };
+		C20000000000000000000004 /* Counter assets in Widget Resources */ = {isa = PBXBuildFile; fileRef = C21000000000000000000001 /* Counter Assets.xcassets */; };
+		C20000000000000000000005 /* ActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21000000000000000000004 /* ActivityWidget.swift */; };
+		C20000000000000000000006 /* LiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21000000000000000000005 /* LiveActivity.swift */; };
+		C20000000000000000000007 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21000000000000000000006 /* Models.swift */; };
+		C20000000000000000000008 /* ShareExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21000000000000000000007 /* ShareExtension.swift */; };
+		C20000000000000000000009 /* ShareManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21000000000000000000008 /* ShareManifest.swift */; };
+		C20000000000000000000010 /* Embed Counter Widget */ = {isa = PBXBuildFile; fileRef = C21000000000000000000013 /* CounterWidget.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C20000000000000000000011 /* Embed Counter Share */ = {isa = PBXBuildFile; fileRef = C21000000000000000000014 /* CounterShare.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83561F8B3052EB53005F3494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00000000000000000000002F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00000000000000000000001B;
+			remoteInfo = CheckBot;
+		};
+		C29000000000000000000001 /* Counter Widget dependency proxy */ = {isa = PBXContainerItemProxy; containerPortal = 00000000000000000000002F /* Project object */; proxyType = 1; remoteGlobalIDString = C22000000000000000000001; remoteInfo = CounterWidget; };
+		C29000000000000000000002 /* Counter Share dependency proxy */ = {isa = PBXContainerItemProxy; containerPortal = 00000000000000000000002F /* Project object */; proxyType = 1; remoteGlobalIDString = C22000000000000000000002; remoteInfo = CounterShare; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		000000000000000000000003 /* PlanFolderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanFolderStore.swift; sourceTree = "<group>"; };
+		000000000000000000000009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00000000000000000000000B /* PlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTests.swift; sourceTree = "<group>"; };
+		00000000000000000000000E /* Wow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Wow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000000F /* CheckBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CheckBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000027 /* CheckBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CheckBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01158051EDFE6B51BEAB8A77 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/ExportView.swift"; sourceTree = SOURCE_ROOT; };
+		03043797D9F1C7905E8EA7B6 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorView.swift"; sourceTree = SOURCE_ROOT; };
+		05A067305FB4C75BE6DADAD1 /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterTextView.swift"; sourceTree = SOURCE_ROOT; };
+		06FA642DC60B6BD1EB9E4A18 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationRenderingGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationRenderingGeometry.swift"; sourceTree = SOURCE_ROOT; };
+		233F41D726D7B0D8567FA4EE /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorHistory.swift"; sourceTree = SOURCE_ROOT; };
+		23727EB5696EBD1F2F936D27 /* CheckBot/WowModules.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CheckBot/WowModules.xcassets; sourceTree = SOURCE_ROOT; };
+		460AD19B3CFC6CEF160E4559 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorTool.swift"; sourceTree = SOURCE_ROOT; };
+		4816E7D6F11CF4531D7185D9 /* ../../提词器 copy/TeleprompterApp/Camera/CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../提词器 copy/TeleprompterApp/Camera/CameraService.swift"; sourceTree = SOURCE_ROOT; };
+		50CD38269D4DFA85F459F5F2 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ArrowCanvasShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/ArrowCanvasShapes.swift"; sourceTree = SOURCE_ROOT; };
+		5F495FCBB3F4D43892DE69EC /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/AppTheme.swift"; sourceTree = SOURCE_ROOT; };
+		62E083EC3AD3712C5FC44EC7 /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterView.swift"; sourceTree = SOURCE_ROOT; };
+		71D35AFD6934D2B03BCB8CA9 /* CheckBot/WowModules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBot/WowModules.swift; sourceTree = SOURCE_ROOT; };
+		7275A006BA6A0713E4823600 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayImageLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayImageLayer.swift"; sourceTree = SOURCE_ROOT; };
+		87D6441C34FF161F169D65B6 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageAsset.swift"; sourceTree = SOURCE_ROOT; };
+		881F74A608C2BC36E58FBC5E /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotatedImageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotatedImageRenderer.swift"; sourceTree = SOURCE_ROOT; };
+		8D5791E3882C723DF071CBEE /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/HomeView.swift"; sourceTree = SOURCE_ROOT; };
+		985CF1AF44772B8C0E99D748 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/Localization.swift"; sourceTree = SOURCE_ROOT; };
+		99C1A57EBE2FA93FEAF63B06 /* ../../提词器 copy/TeleprompterApp/Camera/CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../提词器 copy/TeleprompterApp/Camera/CameraPreview.swift"; sourceTree = SOURCE_ROOT; };
+		A10000000000000000000012 /* WowDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowDashboardView.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* WowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowDetailView.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* WowEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowEditorSheet.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* WowHomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowHomeModels.swift; sourceTree = "<group>"; };
+		A10000000000000000000016 /* WowHomeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowHomeStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000017 /* WowHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowHomeView.swift; sourceTree = "<group>"; };
+		A10000000000000000000018 /* WowPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowPersistence.swift; sourceTree = "<group>"; };
+		A10000000000000000000019 /* WowPlanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowPlanService.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* WowRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowRouter.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* WowAppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowAppContext.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* TeleprompterDraftStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterDraftStore.swift; sourceTree = "<group>"; };
+		BAB01721BF7340C01362994B /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationPropertySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationPropertySheet.swift"; sourceTree = SOURCE_ROOT; };
+		BB0000000000000000000002 /* WowNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowNavigationTests.swift; sourceTree = "<group>"; };
+		C0D22B6394C16966E94B3317 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayGestureSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayGestureSurface.swift"; sourceTree = SOURCE_ROOT; };
+		C10000000000000000000002 /* WowTimeOfDayLighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowTimeOfDayLighting.swift; sourceTree = "<group>"; };
+		C1C7D737CAF579E41A318A68 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageCanvasView.swift"; sourceTree = SOURCE_ROOT; };
+		D10000000000000000000002 /* ObsidianURI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianURI.swift; sourceTree = "<group>"; };
+		EEAC6E26F9188FD4C21EDCE1 /* ../../提词器 copy/TeleprompterApp/Features/ScriptEditor/ScriptEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../提词器 copy/TeleprompterApp/Features/ScriptEditor/ScriptEditorView.swift"; sourceTree = SOURCE_ROOT; };
+		F431B56352D09C0E8DD242F3 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../picture-remarker(mainIOS) copy/ios/PictureMarker/Annotation.swift"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000001 /* Counter Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "../../Counter copy/CounterApp/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000002 /* CompanionLoopSilent.mp4 */ = {isa = PBXFileReference; lastKnownFileType = video.mp4; path = "../../Counter copy/CounterApp/CompanionLoopSilent.mp4"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000004 /* ActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Counter copy/CounterApp/ActivityWidget.swift"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000005 /* LiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Counter copy/CounterApp/LiveActivity.swift"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000006 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Counter copy/CounterApp/Models.swift"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000007 /* ShareExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Counter copy/CounterApp/ShareExtension.swift"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000008 /* ShareManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Counter copy/CounterApp/ShareManifest.swift"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000009 /* CounterWidget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "../../Counter copy/CounterApp/CounterWidget-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000010 /* CounterShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "../../Counter copy/CounterApp/CounterShare-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000011 /* CounterWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "../../Counter copy/CounterApp/CounterWidget.entitlements"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000012 /* CounterShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "../../Counter copy/CounterApp/CounterShare.entitlements"; sourceTree = SOURCE_ROOT; };
+		C21000000000000000000013 /* CounterWidget.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = CounterWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21000000000000000000014 /* CounterShare.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = CounterShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21000000000000000000015 /* Wow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Wow.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20000000000000000000001 /* CounterTool in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000002C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23000000000000000000001 /* Counter Widget Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		C23000000000000000000002 /* Counter Share Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00000000000000000000000A /* CheckBot */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000001 /* AppDelegate.swift */,
+				000000000000000000000003 /* PlanFolderStore.swift */,
+				A10000000000000000000012 /* WowDashboardView.swift */,
+				A10000000000000000000013 /* WowDetailView.swift */,
+				A10000000000000000000014 /* WowEditorSheet.swift */,
+				A10000000000000000000015 /* WowHomeModels.swift */,
+				A10000000000000000000016 /* WowHomeStore.swift */,
+				A10000000000000000000017 /* WowHomeView.swift */,
+				C10000000000000000000002 /* WowTimeOfDayLighting.swift */,
+				A10000000000000000000018 /* WowPersistence.swift */,
+				A10000000000000000000019 /* WowPlanService.swift */,
+				D10000000000000000000002 /* ObsidianURI.swift */,
+				A20000000000000000000011 /* WowRouter.swift */,
+				A20000000000000000000012 /* WowAppContext.swift */,
+				A20000000000000000000015 /* TeleprompterDraftStore.swift */,
+				000000000000000000000009 /* Info.plist */,
+				C21000000000000000000015 /* Wow.entitlements */,
+			);
+			path = CheckBot;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000D /* CheckBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000B /* PlanTests.swift */,
+			);
+			path = CheckBotTests;
+			sourceTree = "<group>";
+		};
+		000000000000000000000010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000E /* Wow.app */,
+				00000000000000000000000F /* CheckBotTests.xctest */,
+				000000000000000000000027 /* CheckBotUITests.xctest */,
+				C21000000000000000000013 /* CounterWidget.appex */,
+				C21000000000000000000014 /* CounterShare.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000011 = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000A /* CheckBot */,
+				688B50103B80C86A7B38C44D /* Wow Modules */,
+				00000000000000000000000D /* CheckBotTests */,
+				000000000000000000000010 /* Products */,
+				000000000000000000000026 /* CheckBotUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000026 /* CheckBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000002 /* WowNavigationTests.swift */,
+			);
+			path = CheckBotUITests;
+			sourceTree = "<group>";
+		};
+		688B50103B80C86A7B38C44D /* Wow Modules */ = {
+			isa = PBXGroup;
+			children = (
+				71D35AFD6934D2B03BCB8CA9 /* CheckBot/WowModules.swift */,
+				881F74A608C2BC36E58FBC5E /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotatedImageRenderer.swift */,
+				F431B56352D09C0E8DD242F3 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Annotation.swift */,
+				BAB01721BF7340C01362994B /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationPropertySheet.swift */,
+				06FA642DC60B6BD1EB9E4A18 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationRenderingGeometry.swift */,
+				5F495FCBB3F4D43892DE69EC /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AppTheme.swift */,
+				50CD38269D4DFA85F459F5F2 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ArrowCanvasShapes.swift */,
+				233F41D726D7B0D8567FA4EE /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorHistory.swift */,
+				460AD19B3CFC6CEF160E4559 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorTool.swift */,
+				03043797D9F1C7905E8EA7B6 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorView.swift */,
+				01158051EDFE6B51BEAB8A77 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ExportView.swift */,
+				8D5791E3882C723DF071CBEE /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/HomeView.swift */,
+				87D6441C34FF161F169D65B6 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageAsset.swift */,
+				C1C7D737CAF579E41A318A68 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageCanvasView.swift */,
+				985CF1AF44772B8C0E99D748 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Localization.swift */,
+				C0D22B6394C16966E94B3317 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayGestureSurface.swift */,
+				7275A006BA6A0713E4823600 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayImageLayer.swift */,
+				99C1A57EBE2FA93FEAF63B06 /* ../../提词器 copy/TeleprompterApp/Camera/CameraPreview.swift */,
+				4816E7D6F11CF4531D7185D9 /* ../../提词器 copy/TeleprompterApp/Camera/CameraService.swift */,
+				EEAC6E26F9188FD4C21EDCE1 /* ../../提词器 copy/TeleprompterApp/Features/ScriptEditor/ScriptEditorView.swift */,
+				05A067305FB4C75BE6DADAD1 /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterTextView.swift */,
+				62E083EC3AD3712C5FC44EC7 /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterView.swift */,
+				23727EB5696EBD1F2F936D27 /* CheckBot/WowModules.xcassets */,
+				C21000000000000000000001 /* Counter Assets.xcassets */,
+				C21000000000000000000002 /* CompanionLoopSilent.mp4 */,
+				C21000000000000000000004 /* ActivityWidget.swift */,
+				C21000000000000000000005 /* LiveActivity.swift */,
+				C21000000000000000000006 /* Models.swift */,
+				C21000000000000000000007 /* ShareExtension.swift */,
+				C21000000000000000000008 /* ShareManifest.swift */,
+				C21000000000000000000009 /* CounterWidget-Info.plist */,
+				C21000000000000000000010 /* CounterShare-Info.plist */,
+				C21000000000000000000011 /* CounterWidget.entitlements */,
+				C21000000000000000000012 /* CounterShare.entitlements */,
+			);
+			name = "Wow Modules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00000000000000000000001B /* Wow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000017 /* Build configuration list for PBXNativeTarget "Wow" */;
+			buildPhases = (
+				000000000000000000000018 /* Sources */,
+				000000000000000000000019 /* Frameworks */,
+				00000000000000000000001A /* Resources */,
+				C27000000000000000000001 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C29100000000000000000001 /* Counter Widget target dependency */,
+				C29100000000000000000002 /* Counter Share target dependency */,
+			);
+			name = Wow;
+			productName = Wow;
+			productReference = 00000000000000000000000E /* Wow.app */;
+			productType = "com.apple.product-type.application";
+			packageProductDependencies = (C29200000000000000000001 /* CounterTool */, );
+		};
+		000000000000000000000023 /* CheckBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000001E /* Build configuration list for PBXNativeTarget "CheckBotTests" */;
+			buildPhases = (
+				000000000000000000000020 /* Sources */,
+				000000000000000000000021 /* Frameworks */,
+				000000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00000000000000000000001F /* PBXTargetDependency */,
+			);
+			name = CheckBotTests;
+			productName = CheckBotTests;
+			productReference = 00000000000000000000000F /* CheckBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C22000000000000000000001 /* CounterWidget */ = {isa = PBXNativeTarget; buildConfigurationList = C28000000000000000000009 /* Build configuration list for CounterWidget */; buildPhases = (C25000000000000000000001 /* Sources */, C23000000000000000000001 /* Frameworks */, C26000000000000000000001 /* Resources */, ); buildRules = (); dependencies = (); name = CounterWidget; productName = CounterWidget; productReference = C21000000000000000000013 /* CounterWidget.appex */; productType = "com.apple.product-type.app-extension"; };
+		C22000000000000000000002 /* CounterShare */ = {isa = PBXNativeTarget; buildConfigurationList = C28000000000000000000010 /* Build configuration list for CounterShare */; buildPhases = (C25000000000000000000002 /* Sources */, C23000000000000000000002 /* Frameworks */, C26000000000000000000002 /* Resources */, ); buildRules = (); dependencies = (); name = CounterShare; productName = CounterShare; productReference = C21000000000000000000014 /* CounterShare.appex */; productType = "com.apple.product-type.app-extension"; };
+		00000000000000000000002E /* CheckBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000002A /* Build configuration list for PBXNativeTarget "CheckBotUITests" */;
+			buildPhases = (
+				00000000000000000000002B /* Sources */,
+				00000000000000000000002C /* Frameworks */,
+				00000000000000000000002D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00000000000000000000001F /* PBXTargetDependency */,
+			);
+			name = CheckBotUITests;
+			productName = CheckBotUITests;
+			productReference = 000000000000000000000027 /* CheckBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00000000000000000000002F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2660;
+			};
+			buildConfigurationList = 000000000000000000000014 /* Build configuration list for PBXProject "CheckBot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000011;
+			productRefGroup = 000000000000000000000010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00000000000000000000001B /* Wow */,
+				000000000000000000000023 /* CheckBotTests */,
+				00000000000000000000002E /* CheckBotUITests */,
+				C22000000000000000000001 /* CounterWidget */,
+				C22000000000000000000002 /* CounterShare */,
+			);
+			packageReferences = (C29300000000000000000001 /* XCLocalSwiftPackageReference "../../Counter copy" */, );
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3C0A465A51BAAA4690F956 /* CheckBot/WowModules.xcassets in Resources */,
+				C20000000000000000000002 /* Counter assets in Resources */,
+				C20000000000000000000003 /* CompanionLoopSilent.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000002D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26000000000000000000001 /* Counter Widget Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (C20000000000000000000004 /* Counter assets in Widget Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		C26000000000000000000002 /* Counter Share Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C27000000000000000000001 /* Embed App Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (C20000000000000000000010 /* Embed Counter Widget */, C20000000000000000000011 /* Embed Counter Share */, ); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000002 /* AppDelegate.swift in Sources */,
+				000000000000000000000004 /* PlanFolderStore.swift in Sources */,
+				E4CC07546A36746E11E2A631 /* CheckBot/WowModules.swift in Sources */,
+				A10000000000000000000002 /* WowDashboardView.swift in Sources */,
+				A10000000000000000000003 /* WowDetailView.swift in Sources */,
+				A10000000000000000000004 /* WowEditorSheet.swift in Sources */,
+				A10000000000000000000005 /* WowHomeModels.swift in Sources */,
+				A10000000000000000000006 /* WowHomeStore.swift in Sources */,
+				A10000000000000000000007 /* WowHomeView.swift in Sources */,
+				C10000000000000000000001 /* WowTimeOfDayLighting.swift in Sources */,
+				A10000000000000000000008 /* WowPersistence.swift in Sources */,
+				A10000000000000000000009 /* WowPlanService.swift in Sources */,
+				D10000000000000000000001 /* ObsidianURI.swift in Sources */,
+				A20000000000000000000001 /* WowRouter.swift in Sources */,
+				A20000000000000000000002 /* WowAppContext.swift in Sources */,
+				A20000000000000000000005 /* TeleprompterDraftStore.swift in Sources */,
+				17CBA5D2EB02FADF84ADA7E3 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotatedImageRenderer.swift in Sources */,
+				35DE084754D9BD363EAA9729 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Annotation.swift in Sources */,
+				97E4C2F7D8202A008F93B4DA /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationPropertySheet.swift in Sources */,
+				D79CD57DBDD3109022F63412 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AnnotationRenderingGeometry.swift in Sources */,
+				FB0FE80FAB0AC6EFD9E594CA /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/AppTheme.swift in Sources */,
+				8F291E3AA4E53A2107481AFD /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ArrowCanvasShapes.swift in Sources */,
+				51278475FF4C057D10EEA7BB /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorHistory.swift in Sources */,
+				85D8A9292F60226110A20634 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorTool.swift in Sources */,
+				BF19EE43547FF8DE3C8E0881 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/EditorView.swift in Sources */,
+				D9926DF9B187802E6B5C69EE /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ExportView.swift in Sources */,
+				2C4D870842981A519F35D46C /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/HomeView.swift in Sources */,
+				F77D3F28B07CD51CC1022F25 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageAsset.swift in Sources */,
+				9C13A169FDC82CBEE080659B /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/ImageCanvasView.swift in Sources */,
+				0920C372FC9F60A37E3750E6 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/Localization.swift in Sources */,
+				121065C90363516FACB97E58 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayGestureSurface.swift in Sources */,
+				57501AB7190105F131ECDB93 /* ../../picture-remarker(mainIOS) copy/ios/PictureMarker/OverlayImageLayer.swift in Sources */,
+				253794BA1A5417976984D631 /* ../../提词器 copy/TeleprompterApp/Camera/CameraPreview.swift in Sources */,
+				B06CC6A94B4DD9B0CBF09748 /* ../../提词器 copy/TeleprompterApp/Camera/CameraService.swift in Sources */,
+				64036A80962621AF90659619 /* ../../提词器 copy/TeleprompterApp/Features/ScriptEditor/ScriptEditorView.swift in Sources */,
+				8D7CCDA836F458CCFE40191F /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterTextView.swift in Sources */,
+				99C247219EE9CF06F0426684 /* ../../提词器 copy/TeleprompterApp/Features/Teleprompter/TeleprompterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000000C /* PlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000002B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000001 /* WowNavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25000000000000000000001 /* Counter Widget Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (C20000000000000000000005 /* ActivityWidget.swift in Sources */, C20000000000000000000006 /* LiveActivity.swift in Sources */, C20000000000000000000007 /* Models.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		C25000000000000000000002 /* Counter Share Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (C20000000000000000000008 /* ShareExtension.swift in Sources */, C20000000000000000000009 /* ShareManifest.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00000000000000000000001F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00000000000000000000001B /* Wow */;
+			targetProxy = 83561F8B3052EB53005F3494 /* PBXContainerItemProxy */;
+		};
+		C29100000000000000000001 /* Counter Widget target dependency */ = {isa = PBXTargetDependency; target = C22000000000000000000001 /* CounterWidget */; targetProxy = C29000000000000000000001 /* Counter Widget dependency proxy */; };
+		C29100000000000000000002 /* Counter Share target dependency */ = {isa = PBXTargetDependency; target = C22000000000000000000002 /* CounterShare */; targetProxy = C29000000000000000000002 /* Counter Share dependency proxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C29300000000000000000001 /* XCLocalSwiftPackageReference "../../Counter copy" */ = {isa = XCLocalSwiftPackageReference; relativePath = "../../Counter copy"; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C29200000000000000000001 /* CounterTool */ = {isa = XCSwiftPackageProductDependency; package = C29300000000000000000001 /* XCLocalSwiftPackageReference "../../Counter copy" */; productName = CounterTool; };
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000000000000000000000015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CheckBot/Wow.entitlements;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WowAppIcon;
+				DEVELOPMENT_TEAM = MF5B8BWY8A;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = CheckBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBot;
+				PRODUCT_MODULE_NAME = CheckBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CheckBot/Wow.entitlements;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WowAppIcon;
+				DEVELOPMENT_TEAM = MF5B8BWY8A;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = CheckBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBot;
+				PRODUCT_MODULE_NAME = CheckBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		00000000000000000000001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MF5B8BWY8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wow";
+			};
+			name = Debug;
+		};
+		00000000000000000000001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MF5B8BWY8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wow";
+			};
+			name = Release;
+		};
+		000000000000000000000028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MF5B8BWY8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = Wow;
+			};
+			name = Debug;
+		};
+		000000000000000000000029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MF5B8BWY8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TEST_TARGET_NAME = Wow;
+			};
+			name = Release;
+		};
+		C28000000000000000000001 /* CounterWidget Debug */ = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = "../../Counter copy/CounterApp/CounterWidget.entitlements"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = MF5B8BWY8A; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "../../Counter copy/CounterApp/CounterWidget-Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 18.0; PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBot.CounterWidget; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) COUNTER_TOOL_MODULE"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		C28000000000000000000002 /* CounterWidget Release */ = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = "../../Counter copy/CounterApp/CounterWidget.entitlements"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = MF5B8BWY8A; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "../../Counter copy/CounterApp/CounterWidget-Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 18.0; PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBot.CounterWidget; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) COUNTER_TOOL_MODULE"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+		C28000000000000000000003 /* CounterShare Debug */ = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = "../../Counter copy/CounterApp/CounterShare.entitlements"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = MF5B8BWY8A; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "../../Counter copy/CounterApp/CounterShare-Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 18.0; PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBot.CounterShare; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		C28000000000000000000004 /* CounterShare Release */ = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = "../../Counter copy/CounterApp/CounterShare.entitlements"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = MF5B8BWY8A; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "../../Counter copy/CounterApp/CounterShare-Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 18.0; PRODUCT_BUNDLE_IDENTIFIER = com.chris.CheckBot.CounterShare; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000014 /* Build configuration list for PBXProject "CheckBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000012 /* Debug */,
+				000000000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000017 /* Build configuration list for PBXNativeTarget "Wow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000015 /* Debug */,
+				000000000000000000000016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000001E /* Build configuration list for PBXNativeTarget "CheckBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000001C /* Debug */,
+				00000000000000000000001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000002A /* Build configuration list for PBXNativeTarget "CheckBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000028 /* Debug */,
+				000000000000000000000029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28000000000000000000009 /* Build configuration list for CounterWidget */ = {isa = XCConfigurationList; buildConfigurations = (C28000000000000000000001 /* CounterWidget Debug */, C28000000000000000000002 /* CounterWidget Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C28000000000000000000010 /* Build configuration list for CounterShare */ = {isa = XCConfigurationList; buildConfigurations = (C28000000000000000000003 /* CounterShare Debug */, C28000000000000000000004 /* CounterShare Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 00000000000000000000002F /* Project object */;
+}
